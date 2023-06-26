@@ -1,0 +1,44 @@
+.heading{
+    font-family: Ariel, Helvetica;
+    font-size: 24;
+    background-color: #555;
+    color: white;
+    padding: 10px 16px;
+    }
+
+.content{
+    padding: 30px;
+}
+.top-container{
+        background-color: #a7a4a4;
+        padding: 30px;
+    }
+
+ /* class selectors will change the attributes of the element in which it has been specified */
+.newClass{
+    color: blue;
+    font-family: Arial, Helvetica;
+    background-color: yellow;
+    }
+
+/* id selectors will change the attributes of the element in which it has been specified; should only be used once */
+#idSelector{
+    font-weight: bolder;
+    font-family: cursive;
+    }
+    
+.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+.sticky + .content {
+        padding-top: 102px;
+    }
+    
+ul.no-bullets {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
